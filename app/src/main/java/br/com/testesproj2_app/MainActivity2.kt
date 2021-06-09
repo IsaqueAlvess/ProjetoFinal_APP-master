@@ -1,7 +1,6 @@
 package br.com.testesproj2_app
 
 import android.os.Bundle
-import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
@@ -34,29 +33,25 @@ class MainActivity2 : AppCompatActivity() {
             lista_estatal.adapter = adapter
         }else if (lista_estados.toString()=="Centro-Oeste"){
 
+            val Nestados= arrayOf("Goiás"," Mato Grosso", "Mato Grosso do Sul", "Distrito Federal")
+            val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, Nestados)
+            lista_estatal.adapter = adapter
+
         }else if (lista_estados.toString()=="Sudeste"){
+            val Nestados= arrayOf("São Paulo", "Rio de Janeiro", "Minas Gerais", "Espírito Santo")
+            val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, Nestados)
+            lista_estatal.adapter = adapter
 
         }else if (lista_estados.toString()=="Sul"){
+
+            val Nestados= arrayOf("Paraná", "Santa Catarina", "Rio Grande do Sul")
+            val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, Nestados)
+            lista_estatal.adapter = adapter
 
         }
 
         lista_estatal.setOnItemClickListener { parent, view, i, id ->
             Toast.makeText(this, "Item selecionado" + lista_estatal[i], Toast.LENGTH_LONG).show()
         }
-
-
-       /* val visualizar =findViewById<View>(R.id.listview_estados);
-        val TempHolder = intent.getStringExtra("dados_regiao")*/
-
-
-
-        /*val intent=intent
-        //val todos_estados=intent.getStringExtra("dados_estados")
-        val bundle: Bundle? = intent.extras
-        val todos_estados =  bundle!!.getString("dados_estados")
-        Toast.makeText(this, todos_estados, Toast.LENGTH_LONG).show()*/
-
-
     }
-
 }

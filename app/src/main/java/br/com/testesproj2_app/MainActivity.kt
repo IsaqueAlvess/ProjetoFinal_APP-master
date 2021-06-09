@@ -14,14 +14,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val listView_regioes = findViewById<ListView>(R.id.listview_regioes)
-        val listViewestados=findViewById<View>(R.id.listview_estados)
         val nomesRegioes = arrayOf("Norte", "Nordeste", "Centro-Oeste", "Sudeste", "Sul")
-        val estados= arrayOf("Tocantins, Pará, Amapá, Roraima, Amazonas, Acre, Rondônia ","Alagoas, Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande do Norte, Sergipe","Goiás," +
-                "Mato Grosso, Mato Grosso do Sul, Distrito Federal","São Paulo, Rio de Janeiro, Minas Gerais, Espírito Santo", "Paraná, Santa Catarina, Rio Grande do Sul" )
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, nomesRegioes)
             listView_regioes.adapter = adapter
-
 
 
         listView_regioes.setOnItemClickListener { parent, view, i, id ->

@@ -1878,7 +1878,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imagem_regiao
 id imgSplashScreen
 id info
 id invisible
