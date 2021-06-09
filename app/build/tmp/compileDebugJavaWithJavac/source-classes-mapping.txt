@@ -1,0 +1,2 @@
+br/com/testesproj2_app/BuildConfig.java
+ br.com.testesproj2_app.BuildConfig
