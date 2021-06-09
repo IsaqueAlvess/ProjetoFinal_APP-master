@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DC6060</color>
+    <color name="colorPrimaryDark">#ED8383</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bkc">#FFFFFF</color>
+    <color name="bkcAc1">#C0C0C0</color>
+    <color name="titulo">#A31A1A</color>
+    <color name="rNorte">#008000</color>
+    <color name="rNordeste">#DAA520</color>
+    <color name="rCentroOeste">#FFE4B5</color>
+    <color name="rSudeste">#FF7F50</color>
+    <color name="sSul">#00FFFF</color>
+
+</resources>
