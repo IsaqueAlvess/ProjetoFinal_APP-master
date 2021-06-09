@@ -1,29 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/bkcAc1">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="419dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="6dp"
-        android:textColor="@color/titulo"
-        android:textSize="20dp"
-        android:text="@string/titulo_ac1"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imagem_regiao"
+            android:layout_marginLeft="20px"
+            android:layout_width="125dp"
+            android:layout_height="125dp"/>
 
-    <ListView
-        android:id="@+id/listview_regioes"
-        android:layout_width="200dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="220dp"
-        android:layout_marginLeft="-330dp"
-        android:textAlignment="center"
-        android:padding="-40px">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    </ListView>
+            <ListView
+                android:id="@+id/listview_regioes"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/listview_estados"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
