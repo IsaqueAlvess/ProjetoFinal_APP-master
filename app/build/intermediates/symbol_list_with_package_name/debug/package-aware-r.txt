@@ -1588,6 +1588,7 @@ drawable gocachoeiradacapivara
 drawable gocaldasnovas
 drawable goparauna
 drawable gorioaraguaia
+drawable ic_baseline_healing_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1826,6 +1827,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id desricao_resultado
 id dialog_button
 id dimensions
 id direct
@@ -1878,6 +1880,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imagem_estado_1
+id imagem_estado_2
+id imagem_estado_3
+id imagem_estado_4
 id imgSplashScreen
 id info
 id invisible
@@ -2144,6 +2150,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_desc_estados
 layout activity_estados
 layout activity_main
 layout activity_main2

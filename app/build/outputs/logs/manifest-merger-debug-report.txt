@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\roberto jr\.gradle\caches\transforms-2\files-2.1\f7dfbe78f217eeee1087889490dea3d7\jetified-core-ktx-1.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\roberto jr\.gradle\caches\transforms-2\files-2.1\12649c80eb9bf72c1dd01447ef9ea43b\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\roberto jr\.gradle\caches\transforms-2\files-2.1\0a662ee2d3b8d2f04bb5d28620b5e6e8\material-1.2.1\AndroidManifest.xml:17:1-24:12
@@ -35,25 +35,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\roberto 
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\roberto jr\.gradle\caches\transforms-2\files-2.1\f6ed40d45452436287259250f1bf1152\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\roberto jr\.gradle\caches\transforms-2\files-2.1\06cf1df9ea1aee40f7ab1ea9de92a1c5\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\roberto jr\.gradle\caches\transforms-2\files-2.1\3f8911a4b75e42a11eedb70a1a73aef1\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\roberto jr\.gradle\caches\transforms-2\files-2.1\12649c80eb9bf72c1dd01447ef9ea43b\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\roberto jr\.gradle\caches\transforms-2\files-2.1\12649c80eb9bf72c1dd01447ef9ea43b\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\roberto jr\.gradle\caches\transforms-2\files-2.1\0a662ee2d3b8d2f04bb5d28620b5e6e8\material-1.2.1\AndroidManifest.xml:22:5-20
@@ -76,30 +76,34 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ro
 		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:11:9-40
+activity#br.com.testesproj2_app.DescEstados
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:12:9-13:20
+	android:name
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:12:19-46
 activity#br.com.testesproj2_app.MainActivity2
-ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:12:9-60
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:14:9-51
 	android:name
-		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:12:19-48
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:14:19-48
 activity#br.com.testesproj2_app.MainActivity
-ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:13:9-50
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:15:9-50
 	android:name
-		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:15:19-47
 activity#br.com.testesproj2_app.SplashScreenActivity
-ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:14:9-22:20
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:theme
-		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:16:13-69
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:18:13-69
 	android:name
-		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:15:13-49
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:17:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml
