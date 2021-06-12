@@ -1,4 +1,4 @@
-#Fri Jun 11 19:42:13 BRT 2021
-base.0=C\:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sat Jun 12 10:47:08 BRT 2021
+base.0=C\:\\Users\\Bruna\\Desktop\\Android-WORKSPACE\\ProjetoFinal_APP_master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

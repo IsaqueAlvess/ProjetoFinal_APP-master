@@ -1786,8 +1786,13 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnCadastrar
+id btnMostrar
 id buttonPanel
 id cache_measures
+id cadEmail
+id cadNome
+id cadTelefone
 id cancel_button
 id center
 id center_horizontal
@@ -1913,6 +1918,9 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id mostrarEmail
+id mostrarNome
+id mostrarTelefone
 id motion_base
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -2062,6 +2070,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id tituloTelaCadastro
 id toggle
 id top
 id topPanel
@@ -2155,6 +2164,7 @@ layout activity_estados
 layout activity_main
 layout activity_main2
 layout activity_splash_screen
+layout activity_tela_de_cadastro
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2256,6 +2266,10 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string btnCadastrar
+string cadEmail
+string cadNome
+string cadTelefone
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2314,6 +2328,7 @@ string search_menu_title
 string status_bar_notification_info_overflow
 string titulo_ac1
 string titulo_ss
+string titulo_telaCadastro
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
