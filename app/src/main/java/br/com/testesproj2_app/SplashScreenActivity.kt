@@ -13,7 +13,7 @@ class SplashScreenActivity : AppCompatActivity() {
         val handler = Handler()
         handler.postDelayed({
 
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, cadastro_pessoa::class.java)
             startActivity(intent)
             finish()
 

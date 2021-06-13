@@ -76,10 +76,14 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ro
 		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:11:9-40
-activity#br.com.testesproj2_app.DescEstados
-ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:12:9-13:20
+activity#br.com.testesproj2_app.cadastro_pessoa
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:12:9-62
 	android:name
-		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:12:19-46
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:12:19-50
+activity#br.com.testesproj2_app.DescEstados
+ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:13:9-58
+	android:name
+		ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:13:19-46
 activity#br.com.testesproj2_app.MainActivity2
 ADDED from C:\Users\roberto jr\Documents\GitHub\ProjetoFinal_APP-master\app\src\main\AndroidManifest.xml:14:9-51
 	android:name

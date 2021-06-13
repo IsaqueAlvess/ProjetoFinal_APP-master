@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
         val channelID="projeto"
         val desc="notifications"
 
+        var cadastrado=intent.getStringExtra("cadastro")
+
         val listView_regioes = findViewById<ListView>(R.id.listview_regioes)
         val nomesRegioes = arrayOf("Norte", "Nordeste", "Centro-Oeste", "Sudeste", "Sul")
 

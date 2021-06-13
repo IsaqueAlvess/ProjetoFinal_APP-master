@@ -18,8 +18,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="br.com.testesproj2_app.DescEstados" >
-        </activity>
+        <activity android:name="br.com.testesproj2_app.cadastro_pessoa" />
+        <activity android:name="br.com.testesproj2_app.DescEstados" />
         <activity android:name="br.com.testesproj2_app.MainActivity2" />
         <activity android:name="br.com.testesproj2_app.MainActivity" />
         <activity

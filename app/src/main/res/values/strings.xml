@@ -2,4 +2,9 @@
     <string name="app_name">Projeto Desbravando o Brasil</string>
     <string name="titulo_ss">Desbravando o Brasil</string>
     <string name="titulo_ac1">Escolha uma região que deseja desbravar...</string>
+    <string name="titulo_telaCadastro">Cadastro</string>
+    <string name="cadNome">Digite seu nome aqui</string>
+    <string name="cadEmail">Digite seu e-mail</string>
+    <string name="cadTelefone">Digite seu telefone</string>
+    <string name="btnCadastrar">Cadastrar</string>
 </resources>

@@ -1785,8 +1785,12 @@ int id beginning 0x7f080053
 int id blocking 0x7f080054
 int id bottom 0x7f080055
 int id bounce 0x7f080056
+int id btnCadastrar 0x7f080188
 int id buttonPanel 0x7f080057
 int id cache_measures 0x7f080058
+int id cadEmail 0x7f080189
+int id cadNome 0x7f08018a
+int id cadTelefone 0x7f08018b
 int id cancel_button 0x7f080059
 int id center 0x7f08005a
 int id center_horizontal 0x7f08005b
@@ -2061,6 +2065,7 @@ int id time 0x7f080162
 int id title 0x7f080163
 int id titleDividerNoCustom 0x7f080164
 int id title_template 0x7f080165
+int id tituloTelaCadastro 0x7f08018c
 int id toggle 0x7f080166
 int id top 0x7f080167
 int id topPanel 0x7f080168
@@ -2149,6 +2154,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_cadastro_pessoa 0x7f0b0065
 int layout activity_desc_estados 0x7f0b0064
 int layout activity_estados 0x7f0b001c
 int layout activity_main 0x7f0b001d
@@ -2255,6 +2261,10 @@ int string abc_toolbar_collapse_description 0x7f0e001a
 int string app_name 0x7f0e001b
 int string appbar_scrolling_view_behavior 0x7f0e001c
 int string bottom_sheet_behavior 0x7f0e001d
+int string btnCadastrar 0x7f0e0058
+int string cadEmail 0x7f0e0059
+int string cadNome 0x7f0e005a
+int string cadTelefone 0x7f0e005b
 int string character_counter_content_description 0x7f0e001e
 int string character_counter_overflowed_content_description 0x7f0e001f
 int string character_counter_pattern 0x7f0e0020
@@ -2313,6 +2323,7 @@ int string search_menu_title 0x7f0e0054
 int string status_bar_notification_info_overflow 0x7f0e0055
 int string titulo_ac1 0x7f0e0056
 int string titulo_ss 0x7f0e0057
+int string titulo_telaCadastro 0x7f0e005c
 int style AlertDialog_AppCompat 0x7f0f0000
 int style AlertDialog_AppCompat_Light 0x7f0f0001
 int style AndroidThemeColorAccentYellow 0x7f0f0002

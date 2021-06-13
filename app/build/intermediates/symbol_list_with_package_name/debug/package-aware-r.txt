@@ -1786,8 +1786,12 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnCadastrar
 id buttonPanel
 id cache_measures
+id cadEmail
+id cadNome
+id cadTelefone
 id cancel_button
 id center
 id center_horizontal
@@ -2062,6 +2066,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id tituloTelaCadastro
 id toggle
 id top
 id topPanel
@@ -2150,6 +2155,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cadastro_pessoa
 layout activity_desc_estados
 layout activity_estados
 layout activity_main
@@ -2256,6 +2262,10 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string btnCadastrar
+string cadEmail
+string cadNome
+string cadTelefone
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2314,6 +2324,7 @@ string search_menu_title
 string status_bar_notification_info_overflow
 string titulo_ac1
 string titulo_ss
+string titulo_telaCadastro
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
