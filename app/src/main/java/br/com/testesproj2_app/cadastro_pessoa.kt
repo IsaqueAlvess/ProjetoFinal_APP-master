@@ -15,12 +15,10 @@ class cadastro_pessoa : AppCompatActivity() {
         setContentView(R.layout.activity_cadastro_pessoa)
 
 
-        //val sharedPreference = SharedPreference(this, )
-
         btnCadastrar.setOnClickListener {
             val sharedPreference = getSharedPreferences(
                 "preferencias",
-                Context.MODE_PRIVATE
+                MODE_PRIVATE
             )
 
             val ed = sharedPreference.edit()
@@ -36,21 +34,15 @@ class cadastro_pessoa : AppCompatActivity() {
             ed.putString("nome", nome.getText().toString())
             ed.putString("email", nome.getText().toString())
             ed.putString("telefone", nome.getText().toString())
-            ed.apply()
 
             Toast.makeText(getBaseContext(), "Gravado com sucesso",
                 Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, MainActivity::class.java)
             intent.putExtra("cadastro", btnCadastrar.toString())
-            Toast.makeText(this, "Item selecionado" + nome, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Item selecionado " + nome, Toast.LENGTH_LONG).show()
             startActivity(intent)
         }
 
-        /*btnMostrar.setOnClickListener {
-           mostrarNome.text = sharedPreference.getValue("nome")
-            mostrarEmail.text = sharedPreference.getValue("email")
-            mostrarTelefone.text = sharedPreference.getValue("telefone")
-        }*/
     }
 }

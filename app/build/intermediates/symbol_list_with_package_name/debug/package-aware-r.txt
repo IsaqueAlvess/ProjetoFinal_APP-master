@@ -2161,6 +2161,7 @@ layout activity_estados
 layout activity_main
 layout activity_main2
 layout activity_splash_screen
+layout activity_tela_de_cadastro
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

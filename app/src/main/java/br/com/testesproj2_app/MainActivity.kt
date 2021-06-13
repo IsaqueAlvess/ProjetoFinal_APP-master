@@ -63,24 +63,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        setContentView(R.layout.activity_tela_de_cadastro)
-        val sharedPreference = SharedPreference(this)
-
-        btnCadastrar.setOnClickListener {
-            val nome = findViewById(R.id.cadNome) as EditText
-            sharedPreference.save("nome", cadNome.text.toString())
-
-            val email = findViewById(R.id.cadEmail) as EditText
-            sharedPreference.save("email", cadEmail.text.toString())
-
-            val telefone = findViewById(R.id.cadTelefone) as EditText
-            sharedPreference.save("telefone", cadTelefone.text.toString())
-        }
-
-//        btnMostrar.setOnClickListener {
-//            mostrarNome.text = sharedPreference.getValue("nome")
-//            mostrarEmail.text = sharedPreference.getValue("email")
-//            mostrarTelefone.text = sharedPreference.getValue("telefone")
-//        }
     }
 }
