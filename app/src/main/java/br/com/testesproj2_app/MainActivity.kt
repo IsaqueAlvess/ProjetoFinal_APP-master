@@ -6,15 +6,15 @@ import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.graphics.Color
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.ArrayAdapter
-import android.widget.ListView
-import android.widget.Toast
+import android.widget.*
 import androidx.annotation.RequiresApi
+import kotlinx.android.synthetic.main.activity_tela_de_cadastro.*
 
 class MainActivity : AppCompatActivity() {
     lateinit var notificationManager: NotificationManager
@@ -62,6 +62,25 @@ class MainActivity : AppCompatActivity() {
                 }
             startActivity(intent)
         }
-    }
 
+        setContentView(R.layout.activity_tela_de_cadastro)
+        val sharedPreference = SharedPreference(this)
+
+        btnCadastrar.setOnClickListener {
+            val nome = findViewById(R.id.cadNome) as EditText
+            sharedPreference.save("nome", cadNome.text.toString())
+
+            val email = findViewById(R.id.cadEmail) as EditText
+            sharedPreference.save("email", cadEmail.text.toString())
+
+            val telefone = findViewById(R.id.cadTelefone) as EditText
+            sharedPreference.save("telefone", cadTelefone.text.toString())
+        }
+
+//        btnMostrar.setOnClickListener {
+//            mostrarNome.text = sharedPreference.getValue("nome")
+//            mostrarEmail.text = sharedPreference.getValue("email")
+//            mostrarTelefone.text = sharedPreference.getValue("telefone")
+//        }
+    }
 }
