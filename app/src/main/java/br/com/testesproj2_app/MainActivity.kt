@@ -8,13 +8,22 @@ import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.graphics.Color
+import android.graphics.Insets.add
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
 import androidx.annotation.RequiresApi
+import androidx.core.view.OneShotPreDrawListener.add
+import com.android.volley.Request
+import com.android.volley.Response
+import com.android.volley.toolbox.StringRequest
+import com.android.volley.toolbox.Volley
+import com.google.gson.GsonBuilder
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_tela_de_cadastro.*
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
     lateinit var notificationManager: NotificationManager
@@ -26,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val channelID="projeto"
         val desc="notifications"
+
 
         var cadastrado=intent.getStringExtra("cadastro")
 
@@ -62,6 +72,19 @@ class MainActivity : AppCompatActivity() {
                 }
             startActivity(intent)
         }
+
+        val queue=Volley.newRequestQueue(this)
+        val url="http://economia.awesomeapi.com.br/json/USD-BRL"
+
+        val stringRequest=StringRequest(Request.Method.GET, url,
+        Response.Listener<String> {response ->
+            val gson=GsonBuilder().create()
+            val result=gson.fromJson(response.toString(), Array<Moeda>::class.java).toList()
+            tvNomeMoeda.text= result.firstOrNull()?.name.toString()
+            tvCotacaoMoeda.text= result.firstOrNull()?.high.toString()
+        },
+        Response.ErrorListener { tvCotacaoMoeda.text="Errado" })
+        queue.add(stringRequest)
 
     }
 }
