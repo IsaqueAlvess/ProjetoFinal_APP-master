@@ -7,7 +7,7 @@ class SharedPreference {
     fun save(s: String, toString: String) {
 
     }
-
+//Essa classe está salvando os dados no sharedPreference
     class SharedPreference (context: Context) {
 
         private val PREFERENCE_NAME = "PROJETODESBRAVANDOOBRASIL"

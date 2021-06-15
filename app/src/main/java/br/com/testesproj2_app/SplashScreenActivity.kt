@@ -9,6 +9,7 @@ class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
+        //Essa funcionalidade serve apenas para exibir a tela de inicialização do app e redirecionamento para a activity cadastro_pessoa
 
         val handler = Handler()
         handler.postDelayed({

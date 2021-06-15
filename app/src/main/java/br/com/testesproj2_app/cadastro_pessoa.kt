@@ -15,7 +15,7 @@ class cadastro_pessoa : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cadastro_pessoa)
-
+        // Aqui está a validação dos dados de entrada
         fun validateInput(): Boolean{
             if (TextUtils.isEmpty(cadNome.getText())){
                 cadNome.setError("Nome obrigatório")
@@ -45,7 +45,8 @@ class cadastro_pessoa : AppCompatActivity() {
         }
             return true
         }
-
+            //Aqui é o botão cadastrar que coleta os dados digitados e armazena eles, após isso redirecionando para a mainActivity
+            //onde está a apresentação da lista de regiões
             btnCadastrar.setOnClickListener {
                 if(validateInput()) {
                 if (validatee()) {
@@ -53,18 +54,19 @@ class cadastro_pessoa : AppCompatActivity() {
                         "preferencias",
                         MODE_PRIVATE
                     )
-
+                    //recebimento de dados
                     val ed = sharedPreference.edit()
                     val nome = findViewById(R.id.cadNome) as EditText
                     val email = findViewById(R.id.cadEmail) as EditText
-                    val telefone = cadTelefone.text.toString()//<Int>(R.id.cadTelefone)
+                    val telefone = cadTelefone.text.toString()
 
+                    //armazenamento de dados
                     ed.putString("nome", nome.getText().toString())
                     ed.putString("email", email.getText().toString())
                     ed.putString("telefone", telefone.toLong().toString())
                     Toast.makeText(getBaseContext(), "Gravado com sucesso", Toast.LENGTH_SHORT)
                         .show()
-
+                    //direcionamento para próxima tela
                     val intent = Intent(this, MainActivity::class.java)
                     intent.putExtra("cadastro", btnCadastrar.toString())
                     startActivity(intent)

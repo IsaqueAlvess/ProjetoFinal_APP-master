@@ -11,12 +11,11 @@ class DescEstados : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_desc_estados)
-
+        //parâmetro da mainActivity2
         var desc_estado=intent.getStringExtra("descricao")
         val textoE=findViewById<TextView>(R.id.desricao_resultado)
-        //desricao_resultado.text=desc_estado.toString()
 
-
+        //descrição com fotos de todos os estados mais o df
         if (desc_estado.toString()=="Amazonas"){
             imagem_estado_1.setImageResource(R.drawable.ammercadomunicipaladolpholisboa)
             imagem_estado_2.setImageResource(R.drawable.ampraiadotupe)

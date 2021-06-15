@@ -14,10 +14,11 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
-
+        //parâmetro da mainActivity
         var lista_estados=intent.getStringExtra("estados")
         val lista_estatal=findViewById<ListView>(R.id.listview_estados2)
-
+        //Apresentação dos estados correspondentes
+        //direcionamento para descEstados aos dados correspondente
         if (lista_estados.toString()=="Norte"){
 
             val Nestados = arrayOf ("Tocantins", "Pará", "Amapá", "Roraima", "Amazonas", "Acre", "Rondônia")

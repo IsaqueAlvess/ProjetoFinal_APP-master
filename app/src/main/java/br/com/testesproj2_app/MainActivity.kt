@@ -26,6 +26,7 @@ import kotlinx.android.synthetic.main.activity_cadastro_pessoa.*
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
+    // declaração de notificação
     lateinit var notificationManager: NotificationManager
     lateinit var notificationChannel: NotificationChannel
     lateinit var builder: Notification.Builder
@@ -33,21 +34,22 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        // declaração de notificação
         val channelID="projeto"
         val desc="notifications"
         var count=0
 
-
+        //parâmetro da tela anterior
         var cadastrado=intent.getStringExtra("cadastro")
 
+        //lista de regiões
         val listView_regioes = findViewById<ListView>(R.id.listview_regioes)
         val nomesRegioes = arrayOf("Norte", "Nordeste", "Centro-Oeste", "Sudeste", "Sul")
-
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, nomesRegioes)
             listView_regioes.adapter = adapter
 
             notificationManager= getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-
+        //clique na região para apareer seus estados correspondentes na mainActivity2
         listView_regioes.setOnItemClickListener { parent, view, i, id ->
             count++
             var item_clicado = parent.getItemAtPosition(i)
@@ -58,6 +60,7 @@ class MainActivity : AppCompatActivity() {
             //intent.putExtra("dados_estados", estados)
             Toast.makeText(this, "Item selecionado" + nomesRegioes[i], Toast.LENGTH_LONG).show()
             if (count ==1) {
+                //chamada da notifiação que aparece só uma vez usando count
             notificationChannel = NotificationChannel(channelID, desc, NotificationManager.IMPORTANCE_HIGH)
             notificationChannel.lightColor = Color.MAGENTA
             notificationChannel.enableVibration(true)
@@ -75,7 +78,7 @@ class MainActivity : AppCompatActivity() {
             count++
             startActivity(intent)
         }
-
+        //apresentação da api para conversão de moeda
         val queue=Volley.newRequestQueue(this)
         val url="http://economia.awesomeapi.com.br/json/USD-BRL"
 
