@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Braving Brazil Project</string>
+    <string name="titulo_ss" translatable="false">pioneering Brazil</string>
+    <string name="titulo_ac1">Choose a region you want to explore...</string>
+    <string name="titulo_telaCadastro">Register</string>
+    <string name="cadNome">enter your name here</string>
+    <string name="cadEmail">Type your e-mail</string>
+    <string name="cadTelefone">enter your phone</string>
+    <string name="btnCadastrar">register</string>
+    <string name="mainApi">COIN</string>
+</resources>
