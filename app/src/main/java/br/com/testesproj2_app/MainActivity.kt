@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val channelID="projeto"
         val desc="notifications"
+        var count=0
 
 
         var cadastrado=intent.getStringExtra("cadastro")
@@ -48,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             notificationManager= getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 
         listView_regioes.setOnItemClickListener { parent, view, i, id ->
-
+            count++
             var item_clicado = parent.getItemAtPosition(i)
             val pendingIntent =
                 PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT)
@@ -56,20 +57,22 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("estados", item_clicado.toString())
             //intent.putExtra("dados_estados", estados)
             Toast.makeText(this, "Item selecionado" + nomesRegioes[i], Toast.LENGTH_LONG).show()
-            notificationChannel =
-                NotificationChannel(channelID, desc, NotificationManager.IMPORTANCE_HIGH)
+            if (count ==1) {
+            notificationChannel = NotificationChannel(channelID, desc, NotificationManager.IMPORTANCE_HIGH)
             notificationChannel.lightColor = Color.MAGENTA
             notificationChannel.enableVibration(true)
             notificationManager.createNotificationChannel(notificationChannel)
-                if (item_clicado != "Sul") {
-                    builder = Notification.Builder(this)
-                        .setContentTitle("Local mais seguro? Temos!")
-                        .setContentText("O Sul possui a maior porcentagem de vacinação. Dá uma olhada ;)")
-                        .setChannelId(channelID)
-                        .setSmallIcon(R.drawable.ic_baseline_healing_24)
-                        .setContentIntent(pendingIntent)
-                    notificationManager.notify(1234, builder.build())
+            if (item_clicado != "Sul") {
+                builder = Notification.Builder(this)
+                    .setContentTitle("Local mais seguro? Temos!")
+                    .setContentText("O Sul possui a maior porcentagem de vacinação. Dá uma olhada ;)")
+                    .setChannelId(channelID)
+                    .setSmallIcon(R.drawable.ic_baseline_healing_24)
+                    .setContentIntent(pendingIntent)
+                notificationManager.notify(1234, builder.build())
                 }
+            }
+            count++
             startActivity(intent)
         }
 
