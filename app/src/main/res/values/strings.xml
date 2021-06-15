@@ -7,4 +7,5 @@
     <string name="cadEmail">Digite seu e-mail</string>
     <string name="cadTelefone">Digite seu telefone</string>
     <string name="btnCadastrar">Cadastrar</string>
+    <string name="mainApi">MOEDA</string>
 </resources>

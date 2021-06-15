@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_msparquedosipes.jpg.flat",
-        "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\src\\main\\res\\drawable\\msparquedosipes.jpg"
+        "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goparauna.jpg.flat",
+        "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\src\\main\\res\\drawable\\goparauna.jpg"
     },
     {
         "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rjpraiadecopacana.jpg.flat",
         "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\src\\main\\res\\drawable\\rjpraiadecopacana.jpg"
     },
     {
-        "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goparauna.jpg.flat",
-        "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\src\\main\\res\\drawable\\goparauna.jpg"
+        "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_msparquedosipes.jpg.flat",
+        "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\src\\main\\res\\drawable\\msparquedosipes.jpg"
     },
     {
         "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alpraiadapontaverde.jpg.flat",
@@ -20,12 +20,12 @@
         "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\src\\main\\res\\drawable\\spmuseudeartesaopauloassis.jpg"
     },
     {
-        "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_healing_24.png.flat",
-        "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_healing_24.png"
-    },
-    {
         "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rsruinasjesuiticas.jpg.flat",
         "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\src\\main\\res\\drawable\\rsruinasjesuiticas.jpg"
+    },
+    {
+        "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_healing_24.png.flat",
+        "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_healing_24.png"
     },
     {
         "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_healing_24.xml.flat",
@@ -78,10 +78,6 @@
     {
         "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rrorlataumanan.jpg.flat",
         "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\src\\main\\res\\drawable\\rrorlataumanan.jpg"
-    },
-    {
-        "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tela_de_cadastro.xml.flat",
-        "source": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\src\\main\\res\\layout\\activity_tela_de_cadastro.xml"
     },
     {
         "merged": "C:\\Users\\roberto jr\\Documents\\GitHub\\ProjetoFinal_APP-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_semercadomunicipalthalesferraz.jpg.flat",

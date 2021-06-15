@@ -22,7 +22,7 @@ import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.google.gson.GsonBuilder
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_tela_de_cadastro.*
+import kotlinx.android.synthetic.main.activity_cadastro_pessoa.*
 import java.util.*
 
 class MainActivity : AppCompatActivity() {

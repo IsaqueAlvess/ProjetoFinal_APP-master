@@ -2163,7 +2163,6 @@ layout activity_estados
 layout activity_main
 layout activity_main2
 layout activity_splash_screen
-layout activity_tela_de_cadastro
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2281,6 +2280,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string mainApi
 string material_slider_range_end
 string material_slider_range_start
 string mtrl_badge_numberless_content_description
